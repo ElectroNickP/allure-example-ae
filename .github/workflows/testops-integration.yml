@@ -18,7 +18,7 @@ on:
       ALLURE_USERNAME:
         description: "ALLURE_USERNAME service parameter. Leave blank"
         required: false
-      stage:
+      STAGE:
         description: "value from testopst. Leave blank."
         required: false
 
@@ -29,7 +29,7 @@ env:
   ALLURE_TESTPLAN_PATH: "./testplan.json"
   ALLURE_RESULTS: "build/allure-results"
   ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
-  stage: ${{ github.event.inputs.stage }}
+  STAGE: ${{ github.event.inputs.stage }}
 
 jobs:
   all-tests:
