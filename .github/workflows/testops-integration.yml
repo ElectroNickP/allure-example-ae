@@ -58,8 +58,6 @@ jobs:
           printenv | grep TEST_
           printenv | grep ALLURE_
           printenv
-          export $(allurectl job-run env | grep ALLURE | xargs -L1)
-          printenv
         env:
           TEST_ENDPOINT: ${{ github.event.inputs.TEST_ENDPOINT }}
           TEST_BROWSER: ${{ github.event.inputs.TEST_BROWSER }}
