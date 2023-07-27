@@ -21,9 +21,6 @@ on:
       STAGE:
         description: "value from testopst. Leave blank."
         required: false
-      ALLURE_LAUNCH_ID:
-        description: "v1alue from testopst. Leave blank."
-        required: false
 
 env:
   ALLURE_ENDPOINT: https://testing.allure.aws.qameta.in
