@@ -31,7 +31,6 @@ public class PullRequestsWebTest {
     @TM4J("AE-T6")
     @Microservice("Billing")
     @Suite("A.Football")
-    @SportType("A.Football")
     @Tags({@Tag("web"), @Tag("regress"), @Tag("smoke")})
     @JiraIssues({@JiraIssue("AE-3")})
     @DisplayName("Creating new pull request by authorized user")
