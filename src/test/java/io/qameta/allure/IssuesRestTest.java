@@ -18,7 +18,8 @@ public class IssuesRestTest {
     private final RestSteps steps = new RestSteps();
 
     @TM4J("AE-T1")
-    @Story("Create new issue")
+    @Story("!"№;%:EDRTYUJIK< MVCFXEXDCFTGYHUJIKOrdtyimyuintiumiUTINUY)876*&%^TFUYTD$#Q%dr64w53w65rd754w64edtf8675e75rcy009-kij98uj0ijniut&%E^$AS%EX&TF(YUI()JOJUT*^%E$%SCV6eq43215wst4es543qes4%Q$s54es65rc97yt97yh09i=0u9t78d8t8f65sw7tyc7rd3ytvuytr8g
+")
     @Microservice("Billing")
     @JiraIssues({@JiraIssue("AE-1")})
     @Tags({@Tag("api"), @Tag("smoke")})
