@@ -26,6 +26,7 @@ env:
   ALLURE_TESTPLAN_PATH: "./testplan.json"
   ALLURE_RESULTS: "build/allure-results"
   ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
+  ALLURE_LAUNCH_TAGS: "Job:${CI_JOB_NAME}, Env:${ENVIRONMENT}, Tags:${TAGS}, Commit:${CI_COMMIT_AUTHOR}"
 
 jobs:
   all-tests:
